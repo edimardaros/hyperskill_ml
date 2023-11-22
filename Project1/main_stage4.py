@@ -68,5 +68,5 @@ for subset_name, subset_X in subsets.items():
 best_subset = min(mape_scores, key=mape_scores.get)
 lowest_mape = mape_scores[best_subset]
 
-# print(f'Lowest MAPE: {lowest_mape}, Best Model: {best_subset}')
+print(f'Lowest MAPE: {lowest_mape}, Best Model: {best_subset}')
 print(lowest_mape)
